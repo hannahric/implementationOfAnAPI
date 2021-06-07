@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Data xmlns:dt="urn:schemas-microsoft-com:datatypes" xml:space="preserve" 
+Title="Artikelliste">
+    <Description>
+        <Title dt:dt="string">Artikelliste</Title>
+        <FontName dt:dt="string">Arial</FontName>
+        <FontSize dt:dt="i4">8</FontSize>
+        <Hatched dt:dt="i4">1</Hatched>
+        <ColorBkGnd1 dt:dt="i4">16777215</ColorBkGnd1>
+        <ColorText1 dt:dt="i4">0</ColorText1>
+        <ColorBkGnd2 dt:dt="i4">16184050</ColorBkGnd2>
+        <ColorText2 dt:dt="i4">0</ColorText2>
+    </Description>
+    <Fields>
+        <Field dt:dt="string" Title="Artikelnr." Align="Left" Width="9.53" Name="Col1"/>
+        <Field dt:dt="string" Title="I" Align="Center" Width="1.91" Name="Col2"/>
+        <Field dt:dt="string" Title="Kurztext" Align="Left" Width="60.68" Name="Col3"/>
+        <Field dt:dt="string" Title="Matchcode" Align="Left" Width="8.18" Name="Col4"/>
+        <Field dt:dt="r8" Title="Bestand" Align="Right" Width="9.53" Name="Col5"/>
+        <Field dt:dt="string" Title="Einheit" Align="Left" Width="5.08" Name="Col6"/>
+        <Field dt:dt="r8" Title="Preis 1" Align="Right" Width="5.08" Name="Col7"/>
+    </Fields>
+    <Rows>
+        <Row>
+            <Col1 dt:dt="string">101311</Col1>
+            <Col2 dt:dt="string">[X]</Col2>
+            <Col3 dt:dt="string">MK-Alkoline 10-Ltr.</Col3>
+            <Col4 dt:dt="string">101311</Col4>
+            <Col5 dt:dt="r8">73</Col5>
+            <Col6 dt:dt="string">Kan.</Col6>
+            <Col7 dt:dt="r8">22.3</Col7>
+        </Row>
+        <Row>
+            <Col1 dt:dt="string">101312</Col1>
+            <Col2 dt:dt="string">[X]</Col2>
+            <Col3 dt:dt="string">MK-Alkoline 1-Ltr.</Col3>
+            <Col4 dt:dt="string">101312</Col4>
+            <Col5 dt:dt="r8">259</Col5>
+            <Col6 dt:dt="string">Fl.</Col6>
+            <Col7 dt:dt="r8">3.9</Col7>
+        </Row>
+        <Row>
+            <Col1 dt:dt="string">101713</Col1>
+            <Col2 dt:dt="string">[X]</Col2>
+            <Col3 dt:dt="string">MK-Glasreiniger, Keulenflasche 1-Ltr.</Col3>
+            <Col4 dt:dt="string">101713</Col4>
+            <Col5 dt:dt="r8">125</Col5>
+            <Col6 dt:dt="string">Fl.</Col6>
+            <Col7 dt:dt="r8">4</Col7>
+        </Row>
+    </Rows>
+</Data>
